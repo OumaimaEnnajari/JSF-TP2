@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+	<h:head>  
+        <title>formulaire 2</title>  
+    </h:head>  
+    <h:body>  
+  
+     <h1>formulaire 2</h1>  
+  
+     <h:form>  
+        <h:outputLabel value="Entrez un nombre" for="nombre"/>  
+        <h:inputText id="nombre" value="#{bean.nombre}"/>  
+        <h:commandButton value="Valider" action="affichage-2?faces-redirect=true;includeViewParams=true"/>  
+      </h:form>  
+    </h:body>  
+    
+</html>
